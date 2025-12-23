@@ -8,5 +8,3 @@ wallet = "~/.config/solana/id.json"
 [programs.localnet]
 counter = "Counter111111111111111111111111111111111111" # placeholder; Anchor will replace or you can set your own..
 
-[programs.localnet]
-counter = "Counter111111111111111111111111111111111111" # placeholder; Anchor will replace or you can set your own..
