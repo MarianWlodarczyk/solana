@@ -47,3 +47,15 @@ main().catch((err) => {
   console.error(err);
 });
 ---
+  // Decrement
+  await program.rpc.decrement({
+    accounts: { counter: counterKeypair.publicKey },
+  });
+  account = await program.account.counter.fetch(counterKeypair.publicKey);
+  console.log("Count after decrement:", account.count.toString());
+}
+
+main().catch((err) => {
+  console.error(err);
+});
+---
