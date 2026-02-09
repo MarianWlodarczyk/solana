@@ -60,7 +60,4 @@ main().catch((err) => {
 });
 ---
 
-main().catch((err) => {
-  console.error(err);
-});
----
+
